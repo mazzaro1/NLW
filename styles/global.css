@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    border:0=none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+html{
+    --black: #0D114F;
+    --white: #fafafa;
+    --red: #E83f5b;
+    --light0blue: #E0ECFF;
+    --blue: #3485ff;
+    --background: #F6FaFF;
+    --overlay: #040911;
+    --icons-details: #a5b0c1;
+
+    --grey-dark: #4d5e77;
+    --grey-blue: #a1b2cd;
+    --grey-light: #e5eaf1;
+
+    font-size: 62.5%;
+}
+
+h2{
+    font-size: 2.8rem;
+}
+
+body{
+    height: 100vh;
+    background: var(--background);
+}
+
+body, button, input, textarea{
+    font-size: clamp(14px,1.6rem, 2vw);
+    
+}
+
