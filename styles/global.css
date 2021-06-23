@@ -29,6 +29,7 @@ h2{
 }
 
 body{
+    display:flex;
     height: 100vh;
     background: var(--background);
 }
@@ -75,6 +76,7 @@ button, .button{
     color:var(--white);
 
     cursor:pointer;
+    border:none;
 }
 
 button:hover, .button:hover{
@@ -103,3 +105,4 @@ button.outlined,
 .content header img{
     width: 16.7rem;
 }
+
